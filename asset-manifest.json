@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/e-commerce-minecraft/static/css/main.be67dc0a.css",
+    "main.js": "/e-commerce-minecraft/static/js/main.45b800ce.js",
+    "index.html": "/e-commerce-minecraft/index.html",
+    "main.be67dc0a.css.map": "/e-commerce-minecraft/static/css/main.be67dc0a.css.map",
+    "main.45b800ce.js.map": "/e-commerce-minecraft/static/js/main.45b800ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be67dc0a.css",
+    "static/js/main.45b800ce.js"
+  ]
+}
