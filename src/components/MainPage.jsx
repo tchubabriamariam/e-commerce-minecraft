@@ -8,6 +8,10 @@ function MainPage() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/skins" />} />
+        <Route
+          path="/e-commerce-minecraft/"
+          element={<Navigate to="/skins" />}
+        />
         <Route path="/skins" element={<CategoryPage />} />
         <Route path="/zombies" element={<CategoryPage />} />
         <Route path="/animals" element={<CategoryPage />} />
