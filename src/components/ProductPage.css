@@ -1,0 +1,164 @@
+.productPage {
+  display: flex;
+  max-width: 1200px;
+  margin: 100px 101px;
+  gap: 40px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.mainImg {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnails img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.details h2 {
+  font-family: Raleway;
+  color: #1d1f22;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -6px;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 400;
+  color: #1d1f22;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.sizes {
+  margin-bottom: 30px;
+}
+
+.sizes span {
+  color: #1d1f22;
+  font-size: 18px;
+  font-family: "Roboto Condensed";
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sizes button {
+  font-family: "Source Sans Pro";
+  width: 63px;
+  height: 45px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 88px;
+}
+
+.sizes button.selected {
+  background-color: #1d1f22;
+  color: white;
+}
+
+.price span {
+  color: #1d1f22;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.price p {
+  color: #1d1f22;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.addToCart {
+  font-family: Raleway;
+  background-color: #5ece7b;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 40px;
+  width: 292px;
+  text-transform: uppercase;
+}
+
+.addToCart:hover {
+  background-color: #45b665;
+}
+
+.description {
+  max-width: 292px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d1f22;
+  line-height: 1.6;
+  margin-top: 0px;
+}
+
+h2 {
+  font: Raleway;
+  font-weight: normal;
+  font-weight: 200;
+}
+
+.thumbnails img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 4px;
+}
+
+.thumbnails img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

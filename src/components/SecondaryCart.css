@@ -1,0 +1,213 @@
+* {
+  font-family: Raleway;
+}
+.cartOverlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  /* height: 100vh; */
+  z-index: 999;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.secondaryCart {
+  width: 325px;
+  height: 625px;
+  background: white;
+  padding: 1.5rem;
+  position: relative;
+  overflow-y: auto;
+
+  z-index: 1000;
+  margin-right: 72px;
+}
+
+.cartBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 325px);
+  height: 100vh;
+
+  z-index: 998;
+}
+
+.cartTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cartTitle span {
+  font-weight: normal;
+}
+
+.cartItems {
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 20px 0px;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cartInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.cartButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.cartButtons button {
+  width: 24px;
+  height: 24px;
+  font-size: 1rem;
+  background: none;
+  border: 1px solid #1d1f22;
+  cursor: pointer;
+}
+
+.cartButtons button:hover {
+  background: #a9a6a6;
+}
+
+.cartImage {
+  width: 105px;
+  height: 137px;
+  object-fit: contain;
+}
+
+.cartTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.cartActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.viewBag,
+.checkout {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.viewBag {
+  background: white;
+  border: 1px solid #1d1f22;
+  color: #1d1f22;
+}
+
+.checkout {
+  background: #5ece7b;
+  color: white;
+}
+
+.viewBag:hover {
+  background: #f0f0f0;
+}
+.checkout:hover {
+  background: #45b665;
+}
+.cartSizeButtons {
+  display: flex;
+  gap: 4px;
+  margin: 4px 0;
+  min-width: 108px;
+}
+
+.cartSizeButtons button {
+  width: 24px;
+  height: 24px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 12px;
+  padding: 0;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.cartSizeButtons button.selected {
+  background-color: black;
+  color: white;
+}
+
+.cartLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cartRight {
+  display: flex;
+  align-items: center;
+}
+
+.cartItemDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.totalItems {
+  display: flex;
+  gap: 0.5rem;
+  font-family: Raleway;
+  font-weight: bolder;
+  color: #1d1f22;
+  font-size: 16px;
+}
+
+.totalItemsContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+.totalAmount {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #1d1f22;
+}
+
+.itemPrice {
+  font-family: "Raleway";
+  font-weight: 1000000;
+  color: #1d1f22;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.itemTitle {
+  font-weight: 100;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.sizeName {
+  font-size: 14px;
+}

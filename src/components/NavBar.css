@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Railway, sans-serif;
+}
+
+.navbar {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 25px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navLeft,
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.navLeft {
+  margin-left: 101px;
+}
+
+.navRight {
+  margin-right: 101px;
+}
+
+.navCenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  position: relative;
+  font-family: "Raleway";
+  font-size: 16px;
+  text-decoration: none;
+  color: #1d1f22;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+
+.navLink.active {
+  color: #5ece7b;
+}
+
+.navLink.active::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #5ece7b;
+}
+
+.currencyWrapper {
+  position: relative;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: 500;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  height: 24px;
+  line-height: 24px;
+}
+
+.currencySymbol {
+  font-family: Raleway;
+  color: #1d1f22;
+}
+
+.currencyArrow {
+  font-size: 0.8rem;
+  color: #1d1f22;
+}
+
+.currencyDropdown {
+  position: absolute;
+  top: 120%;
+  right: 0;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 100px;
+}
+
+.currencyOption {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: #1d1f22;
+}
+
+.currencyOption:hover {
+  background: #f0f0f0;
+}
+
+.cartIcon {
+  position: relative;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.cartCount {
+  position: absolute;
+  top: -8px;
+  right: -18px;
+  background: #1d1f22;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 4px 3px;
+  min-width: 18px;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.5);
+  z-index: 999;
+}

@@ -1,0 +1,59 @@
+.confirmationLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.paymentConfirmedTitle {
+  width: 349px;
+  margin: 16px auto 0;
+  color: #272727;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 57.6px;
+  letter-spacing: -0.9px;
+  text-align: center;
+}
+
+.confirmationOrderNumber {
+  width: 349px;
+  margin: -8px auto 0;
+  color: #56b280;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15.6px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.confirmationBtn {
+  width: 250px;
+  margin: 30px auto 0;
+  display: block;
+  background: #56b280;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 32px;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkoutLine {
+  color: #272727;
+}
+
+.more {
+  color: #272727;
+  font-weight: 100;
+}
+
+.checkoutLineTotal {
+  color: #56b280;
+}

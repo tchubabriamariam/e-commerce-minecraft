@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "title": "Alex Skin Plushie",
+    "image": "https://www.miniso.ge/uploads/2025/05/6931604346659.jpg",
+    "img1": "https://www.miniso.ge/uploads/2025/05/6931604346659.jpg",
+    "img2": "https://www.miniso.ge/uploads/2025/05/6931604346659.jpg",
+    "category": "skins",
+
+    "price": 25.99,
+
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A plushie of Alex from Minecraft, perfect for fans of the game."
+  },
+  {
+    "id": 11,
+    "title": "Goat Plushie",
+    "image": "https://minecraftshop.com/cdn/shop/files/MINE-PLU1_R_MF_900x.jpg?v=1729532536",
+    "img1": "https://minecraftshop.com/cdn/shop/files/MINE-PLU1_L_MF_900x.jpg?v=1729532539",
+    "img2": "https://minecraftshop.com/cdn/shop/files/MINE-PLU1_R_MF2_900x.jpg?v=1729532538",
+    "category": "animals",
+
+    "price": 24.95,
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A soft and cuddly goat plushie, perfect for Minecraft fans."
+  },
+
+  {
+    "id": 2,
+    "title": "Turtle Plushie",
+    "image": "https://www.miniso.ge/uploads/2025/05/6931604385757.jpg",
+    "img1": "https://www.miniso.ge/uploads/2025/05/6931604385757.jpg",
+    "img2": "https://www.miniso.ge/uploads/2025/05/6931604385757.jpg",
+    "category": "animals",
+
+    "price": 45.99,
+    "outofStock": true,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A soft and cuddly turtle plushie, perfect for Minecraft fans."
+  },
+
+  {
+    "id": 4,
+    "title": "Steve Skin Plushie",
+    "image": "https://www.miniso.ge/uploads/2025/05/6931604346666.jpg",
+    "img1": "https://www.miniso.ge/uploads/2025/05/6931604346666.jpg",
+    "img2": "https://www.miniso.ge/uploads/2025/05/6931604346666.jpg",
+    "category": "skins",
+
+    "price": 49.99,
+
+    "outofStock": true,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A plushie of Steve from Minecraft, perfect for fans of the game."
+  },
+  {
+    "id": 5,
+    "title": "Steve Zobie Plushie",
+    "image": "https://www.miniso.ge/uploads/2025/05/6931604346635.jpg",
+    "img1": "https://www.miniso.ge/uploads/2025/05/6931604346635.jpg",
+    "img2": "https://www.miniso.ge/uploads/2025/05/6931604346635.jpg",
+    "category": "zombies",
+
+    "price": 59.99,
+
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A plushie of Steve as a zombie, perfect for Minecraft fans who love the undead."
+  },
+  {
+    "id": 6,
+    "title": "Enderman Zombie Plushie",
+    "image": "https://www.miniso.ge/uploads/2025/05/6931604346642.jpg",
+    "img1": "https://www.miniso.ge/uploads/2025/05/6931604346642.jpg",
+    "img2": "https://www.miniso.ge/uploads/2025/05/6931604346642.jpg",
+    "category": "zombies",
+
+    "price": 89.99,
+
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A plushie of an Enderman as a zombie, perfect for fans of Minecraft's spooky creatures."
+  },
+  {
+    "id": 7,
+    "title": "Creeper Zombie Plushie",
+    "image": "https://minisojordan.com/cdn/shop/files/6931604328884.jpg?v=1743940241",
+    "img1": "https://minisojordan.com/cdn/shop/files/6931604328884.jpg?v=1743940241",
+    "img2": "https://minisojordan.com/cdn/shop/files/6931604328884.jpg?v=1743940241",
+    "category": "zombies",
+
+    "price": 24.95,
+
+    "outofStock": false,
+    "availableSizes": ["S", "M"],
+    "description": "A plushie of a Creeper as a zombie, perfect for fans of Minecraft's iconic creatures."
+  },
+  {
+    "id": 8,
+    "title": "Bee Plushie",
+    "image": "https://shop.minecraft.net/cdn/shop/files/MINE-PLU2_FT_MF_1080x.jpg?v=1729507593",
+    "img1": "https://m.media-amazon.com/images/I/714v5VJFUZL._UF1000,1000_QL80_.jpg",
+    "img2": "https://cdn.webshopapp.com/shops/351143/files/475710147/1652x1652x1/matel-a-minecraft-movie-plush-figure-bee-20-cm.jpg",
+    "category": "animals",
+
+    "price": 79.99,
+
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A cute bee plushie, perfect for fans of Minecraft's buzzing friends."
+  },
+  {
+    "id": 9,
+    "title": "Pig Plushie",
+    "image": "https://m.media-amazon.com/images/I/61JvqjWanJL.jpg",
+    "img1": "https://m.media-amazon.com/images/I/61JvqjWanJL.jpg",
+    "img2": "https://m.media-amazon.com/images/I/61JvqjWanJL.jpg",
+    "category": "animals",
+
+    "price": 55.99,
+
+    "outofStock": true,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A soft and cuddly pig plushie, perfect for Minecraft fans."
+  },
+  {
+    "id": 10,
+    "title": "Cow Plushie",
+    "image": "https://m.media-amazon.com/images/I/613pF2bWKIL.jpg",
+    "img1": "https://m.media-amazon.com/images/I/613pF2bWKIL.jpg",
+    "img2": "https://m.media-amazon.com/images/I/613pF2bWKIL.jpg",
+    "category": "animals",
+
+    "price": 65.99,
+
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A soft and cuddly cow plushie, perfect for Minecraft fans."
+  },
+
+  {
+    "id": 3,
+    "title": "Spider Plushie",
+    "image": "https://www.miniso.ge/uploads/2025/05/6931604385740.jpg",
+    "img1": "https://www.miniso.ge/uploads/2025/05/6931604385740.jpg",
+    "img2": "https://www.miniso.ge/uploads/2025/05/6931604385740.jpg",
+    "category": "animals",
+
+    "price": 75.99,
+
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A cuddly spider plushie, great for fans of Minecraft's creepy creatures."
+  },
+  {
+    "id": 12,
+    "title": "Axolotl Plushie",
+    "image": "https://minecraftshop.com/cdn/shop/products/MinecraftMattelAxol-1_1800x1800.png?v=1623082495",
+    "img1": "https://minecraftshop.com/cdn/shop/products/MinecraftMattelAxol-2_1800x1800.png?v=1623082495",
+    "img2": "https://minecraftshop.com/cdn/shop/products/MinecraftMattelAxol-4_1800x1800.png?v=1623082495",
+    "category": "animals",
+
+    "price": 34.99,
+
+    "outofStock": false,
+    "availableSizes": ["XS", "S", "M", "L"],
+    "description": "A cute axolotl plushie, perfect for fans of Minecraft's aquatic creatures."
+  }
+]

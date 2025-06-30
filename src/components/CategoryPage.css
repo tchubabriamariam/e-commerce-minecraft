@@ -1,0 +1,129 @@
+.categoryPage {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-left: 101px;
+  margin-right: 101px;
+  justify-content: left;
+}
+
+.productCard {
+  flex: 0 0 calc((100% - 2 * 101px - 2 * 80px) / 3);
+  height: 300px;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  transition: box-shadow 0.2s ease;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+.productCard img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.productCard h3 {
+  font-family: Raleway;
+  font-weight: 100;
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
+
+.productCard p {
+  font-family: Raleway;
+  font-weight: bolder;
+  color: #1d1f22;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.categoryTitle {
+  font-size: 42px;
+  font-family: Raleway;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 2rem 0;
+  margin-left: 101px;
+}
+
+.productImageWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.addCartBtn {
+  position: absolute;
+  bottom: 0px;
+  right: 6px;
+  background-color: #5ece7b;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.addCartBtn:hover {
+  background-color: #45b665;
+}
+
+.productCard:hover .addCartBtn {
+  display: flex;
+}
+
+.productCard {
+  flex: 0 0 calc((100% - 2 * 101px - 2 * 80px) / 3);
+  height: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.productCard.outofstock {
+  opacity: 0.6;
+  pointer-events: none;
+  position: relative;
+}
+
+.outofStockOverlay {
+  font-family: Railway;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 8px 16px;
+  border-radius: 8px;
+
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.productImageWrapper {
+  position: relative;
+}

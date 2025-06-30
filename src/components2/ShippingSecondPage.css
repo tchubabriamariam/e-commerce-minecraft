@@ -1,0 +1,252 @@
+.secondPage {
+  display: flex;
+  min-height: 100vh;
+  background: #fefefe;
+  font-family: Roboto, sans-serif;
+  color: #272727;
+}
+
+.secondLeft,
+.secondRight {
+  flex: 1;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.secondLeft {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.secondRight {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.secondFormWrapper {
+  width: 100%;
+  max-width: 445px;
+}
+
+.secondSteps {
+  color: #6cbe8e;
+  margin-bottom: 24px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.secondSteps .step {
+  font-weight: 500;
+  color: #616161;
+}
+
+.secondSteps .active {
+  color: #56b280;
+  font-weight: bold;
+}
+
+.secondSteps .current {
+  color: #272727;
+  font-weight: bold;
+}
+
+.secondSection {
+  margin-bottom: 32px;
+}
+
+.secondOption {
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.secondOption input {
+  margin-right: 16px;
+}
+
+.secondOption .price {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: auto;
+}
+
+.secondFormActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  padding-top: 24px;
+}
+
+.secondBackBtn {
+  background: none;
+  border: none;
+  color: #56b280;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.secondNextBtn {
+  background: #56b280;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.secondNextBtn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.secondSummary {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.secondCartItem {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 32px;
+}
+
+.secondCartImgWrapper {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin-right: 24px;
+}
+
+.secondCartImgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.secondItemQty {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #56b280;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondItemDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.secondItemName {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.secondItemPrice {
+  font-size: 18px;
+  font-weight: 600;
+  color: #56b280;
+}
+
+.secondDivider {
+  height: 1px;
+  background-color: #56b28033;
+  margin: 24px 0;
+  border: none;
+}
+
+.secondLine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #616161;
+}
+
+.secondLine.total {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+
+.secondContactAddressBox {
+  border: 1px solid #56b28033;
+  background-color: white;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 50px 0;
+  font-size: 14px;
+  color: #272727;
+}
+
+.secondInfoRow {
+  padding: 4px 10px;
+}
+
+.greenLine {
+  height: 1px;
+  background-color: #56b28033;
+  margin: 12px 0;
+}
+
+.secondSome {
+  color: #272727;
+}
+.secondBold {
+  color: #272727;
+  font-weight: bold;
+}
+.more {
+  color: #272727;
+}
+
+.secondGreen {
+  color: #56b280;
+  font-weight: bold;
+}
+
+.secondh3 {
+  margin-bottom: 40px;
+}
+
+strong {
+  color: #616161;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.secondProductList {
+  overflow-y: auto;
+  max-height: 430px;
+}
+.infoRight {
+  background-color: white;
+}
